@@ -1,0 +1,47 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+
+.body-mural{
+    margin: auto;
+    text-align: center;
+}
+
+.new-post{
+    text-align: left;
+    margin: auto;
+    max-width: 600px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+.mural{
+    text-align: left;
+    margin: auto;
+    max-width: 600px;
+}
+
+.title{
+    background-color: rgb(230, 230, 230);
+    font-weight: bold;
+    padding: 15px;
+    border-style: solid;
+    border-radius: 5px 5px 0px 0px;
+    border-width: 1px 1px 1px 1px;
+    border-color: rgb(180, 180, 180);
+    margin-top: 20px;
+}
+
+.description{
+    padding: 18px;
+    border-style: solid;
+    border-radius: 0px 0px 5px 5px;
+    border-width: 0px 1px 1px 1px;
+    border-color: rgb(180, 180, 180); 
+}
+
+.input-mural, .button-mural{
+    padding: 5px;
+}

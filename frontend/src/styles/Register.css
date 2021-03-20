@@ -1,0 +1,27 @@
+.register {
+    max-width: 500px;
+    width: 350px;
+    height: 600px;
+    background-color: #3c1053ff;
+    color: #df6589ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    position: relative;   
+    border-radius: 10px;
+}
+
+.h1-register {
+    position: absolute;
+    top: 0px;
+    font-size: 40px;
+}
+
+.form-register {
+    height: 160px;
+    display: grid;
+    justify-items: center;
+    gap: 20px;
+    position: absolute;
+    bottom: 330px;
+}
