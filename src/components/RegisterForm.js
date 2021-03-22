@@ -22,7 +22,7 @@ function RegisterForm() {
             })
         }
         
-        fetch('/register', options)
+        fetch(`${process.env.REACT_APP_URL}/register`, options)
             .then(res => res.json())
             .then(res => {
                 if (res.message === "ok")

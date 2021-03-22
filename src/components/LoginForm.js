@@ -15,7 +15,7 @@ function LoginForm() {
              headers: new Headers({ 'Content-Type': 'application/json' }),
              body: user
         }
-        fetch("http://localhost:3000/login", options)
+        fetch(`${process.env.REACT_APP_URL}/login`, options)
             .then(res => res.json())
             .then(res => {
                 if (res.error) {

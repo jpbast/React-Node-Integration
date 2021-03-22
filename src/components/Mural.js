@@ -21,7 +21,7 @@ function Mural() {
             headers
         }
 
-        fetch('/mural', options)
+        fetch(`${process.env.REACT_APP_URL}/mural`, options)
             .then(res => res.json())
             .then(posts => {
                 setPosts(posts.docs);
@@ -48,7 +48,7 @@ function Mural() {
             body: post
         }
 
-        fetch('/mural/new', options)
+        fetch(`${process.env.REACT_APP_URL}/mural/new`, options)
             .then(res => res.json())
             .then(newPost => {
                 setPosts([...posts, newPost])
@@ -69,7 +69,7 @@ function Mural() {
             headers,
         }
 
-        fetch(`/mural/delete/${id}`, options)
+        fetch(`${process.env.REACT_APP_URL}/mural/delete/${id}`, options)
             .then(res => res.json())
             .then(doc => {
                 console.log("deletando", doc)
