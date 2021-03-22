@@ -1,6 +1,8 @@
 # Integração entre React e Node
 Neste projeto foi desenvolvido um sistema de login e cadastro onde o usuário logado possui acesso exclusivo a um mural de posts.
 
+Link para a aplicação: https://react-node-integration.herokuapp.com/
+
 ## Objetivos
 Entre os principais objetivos desta aplicação, pode-se destacar: 
 - O estudo referente sobre o backend
