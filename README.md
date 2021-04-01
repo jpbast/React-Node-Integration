@@ -17,3 +17,12 @@ As informações do usuário e dos posts são armazenadas no banco de dados Mong
 
 ## Considerações finais
 Como foi mencionado, o objetivo principal dessa aplicação foi de por em prática a integração entre o **React** e o **Node**. Desse modo, o *layout* e o *design* não tiveram uma atenção tão grande, o que não prejudicou a usabilidade neste caso.
+
+## Tecnologias utilizadas
+- HTML
+- CSS
+- JavaScript
+- React
+- Node
+- Express
+- MongoDB
